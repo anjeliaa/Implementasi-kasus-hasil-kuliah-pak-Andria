@@ -57,16 +57,19 @@ Proyek ini dilaksanakan mengikuti 6 tahapan standar CRISP-DM:
 
 ## 📊 Ringkasan Hasil Model & Evaluasi
 
-| Model Machine Learning | Accuracy | Precision | Recall (Late Class) | ROC-AUC Score |
+| Model Machine Learning | Accuracy | Precision (Late Class) | Recall (Late Class) | ROC-AUC Score |
 | :--- | :---: | :---: | :---: | :---: |
-| **Logistic Regression** | ~85% | ~82% | ~80% | ~0.88 |
-| **Decision Tree** | ~82% | ~79% | ~78% | ~0.81 |
-| **Random Forest (Best Model)** | **~90%** | **~87%** | **~88%** | **~0.94** |
+| **Logistic Regression** | 98% | 99% | 99% | 0.9974 |
+| **Decision Tree** | 96% | 98% | 98% | 0.9403 |
+| **Random Forest (Best Model)** 🏆 | **98%** | **98%** | **99%** | **0.9976** |
 
 ### **Fitur Paling Berpengaruh (Feature Importance - Random Forest):**
-1. **`PastLatePayments`**: Riwayat frekuensi keterlambatan pelanggan di transaksi terdahulu.
-2. **`CreditUtilization`**: Rasio nilai tagihan invoice terhadap batas kredit (*Credit Limit*) pelanggan.
-3. **`DiscountGiven`**: Persentase diskon yang diberikan oleh salesman.
+Berdasarkan hasil pemodelan Random Forest, urutan variabel yang paling memicu risiko keterlambatan pembayaran (*Late Payment*) adalah:
+1. **`InvoiceAmount`**: Total nilai tagihan invoice (memiliki skor penting tertinggi ~62%).
+2. **`PastLatePayments`**: Riwayat frekuensi keterlambatan pelanggan pada transaksi terdahulu.
+3. **`CustomerTenure`**: Lama waktu pelanggan berlangganan/bertransaksi dengan perusahaan.
+4. **`CreditLimit`**: Batas kredit maksimal yang diberikan kepada pelanggan.
+5. **`DiscountGiven`**: Besarnya persentase diskon yang diberikan saat transaksi.
 
 ---
 

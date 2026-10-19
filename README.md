@@ -55,42 +55,6 @@ Proyek ini dilaksanakan mengikuti 6 tahapan standar CRISP-DM:
 
 ---
 
-## 📂 Struktur Proyek
-
-```text
-.
-├── README.md                                 # Dokumentasi lengkap proyek
-├── Implementasi_Kasus_PT_Maju_Bersama.ipynb  # Jupyter Notebook (Kode Lengkap & Visualisasi)
-└── laporan_implementasi_pt_maju_bersama.md   # Ringkasan Eksekutif untuk Manajemen
-```
-
----
-
-## 🛠️ Instalasi & Cara Menjalankan
-
-### **Option 1: Google Colab (Rekomendasi)**
-1. Unduh atau salin file `Implementasi_Kasus_PT_Maju_Bersama.ipynb`.
-2. Buka [Google Colab](https://colab.research.google.com/).
-3. Buka tab **Upload** dan pilih file `.ipynb` yang sudah diunduh.
-4. Jalankan seluruh *cell* secara berurutan (`Ctrl + F9` atau klik **Runtime > Run all**).
-
-### **Option 2: Jupyter Notebook (Lokal)**
-1. Clone repositori ini atau unduh filenya:
-   ```bash
-   git clone https://github.com/username/pt-maju-bersama-late-payment.git
-   cd pt-maju-bersama-late-payment
-   ```
-2. Pastikan Python 3.8+ sudah terinstall. Install paket pustaka yang dibutuhkan:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
-   ```
-3. Jalankan Jupyter Notebook:
-   ```bash
-   jupyter notebook Implementasi_Kasus_PT_Maju_Bersama.ipynb
-   ```
-
----
-
 ## 📊 Ringkasan Hasil Model & Evaluasi
 
 | Model Machine Learning | Accuracy | Precision | Recall (Late Class) | ROC-AUC Score |

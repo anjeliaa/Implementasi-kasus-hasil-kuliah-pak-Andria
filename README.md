@@ -1,7 +1,6 @@
-# 📊 Analisis Kinerja Bisnis & Prediksi Late Payment (PT Maju Bersama)
-> **Studi Kasus:** Informatics Practitioner Lecture Series — *"Make Sense of Data with Analysis and AI"*  
+> **Materi:** *"Make Sense of Data with Analysis and AI"*  
 > **Narasumber:** Andria Arisal, ST., M.Eng. (Pusat Riset Sains Data dan Informasi - BRIN)  
-> **Penyelenggara:** Program Studi Informatika, Universitas Bengkulu  
+> **Penyelenggara:** Informatics Practitioner Lecture Series Program Studi Informatika, Universitas Bengkulu  
 > **Tautan Video Webinar:** [YouTube Live - Informatics Practitioner Lecture Series](https://www.youtube.com/live/WeIWNNO5vbk?si=iq5hTnBXM42NXQIa)
 
 ---

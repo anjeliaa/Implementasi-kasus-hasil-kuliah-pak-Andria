@@ -32,7 +32,8 @@ Proyek ini dilaksanakan mengikuti 6 tahapan standar CRISP-DM:
 ```
 
 1. **Business Understanding:** Identifikasi masalah *cash flow*, penumpukan piutang, dan penurunan laba di tengah naiknya pendapatan.
-2. **Data Understanding:** Menganalisis granularitas data transaksi (120 Customer, 24 Produk, ~4.000 Invoice, dan ~24.000 Line Items).
+2. **Data Understanding:** Menganalisis granularitas data transaksi PT Maju Bersama (120 Customer, 24 Produk, ~4.000 Invoice, dan ~24.000 Line Items).
+   > *Catatan:* Pada skrip koding Python, digunakan simulasi data sintetik sebanyak 4.000 sampel invoice yang merepresentasikan pola dan struktur karakteristik dari populasi data transaksi tersebut.
 3. **Data Preparation:** Pembersihan data, penanganan *missing values*, eliminasi *data leakage* (misal: menghapus kolom tanggal pembayaran riil pada fitur prediksi), serta rekayasa fitur (*Credit Utilization Ratio*).
 4. **Modeling:** Menggunakan 3 algoritma klasifikasi:
    * **Logistic Regression** (Baseline model)
